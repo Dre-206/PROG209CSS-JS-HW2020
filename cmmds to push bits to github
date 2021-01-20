@@ -1,0 +1,38 @@
+bcuser@autumn14:~/PROG 209/PROG209CSS-JS-HW2020$ git status
+On branch main
+Your branch is up-to-date with 'origin/main'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	index.html
+	main.js
+	site.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+bcuser@autumn14:~/PROG 209/PROG209CSS-JS-HW2020$ git add *
+bcuser@autumn14:~/PROG 209/PROG209CSS-JS-HW2020$ git status
+On branch main
+Your branch is up-to-date with 'origin/main'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   index.html
+	new file:   main.js
+	new file:   site.css
+
+bcuser@autumn14:~/PROG 209/PROG209CSS-JS-HW2020$ git commit  -m "pushing bits"
+[main c195f92] pushing bits
+ 3 files changed, 116 insertions(+)
+ create mode 100644 index.html
+ create mode 100644 main.js
+ create mode 100644 site.css
+bcuser@autumn14:~/PROG 209/PROG209CSS-JS-HW2020$ git push --all
+Username for 'https://github.com': Dre-206
+Password for 'https://Dre-206@github.com': 
+Counting objects: 5, done.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 1.50 KiB | 0 bytes/s, done.
+Total 5 (delta 0), reused 0 (delta 0)
+To https://github.com/Dre-206/PROG209CSS-JS-HW2020.git
+   adf92dc..c195f92  main -> main
+bcuser@autumn14:~/PROG 209/PROG209CSS-JS-HW2020$ 
